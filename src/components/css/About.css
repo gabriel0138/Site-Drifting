@@ -1,0 +1,29 @@
+/* Reset de Margens e Padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+    min-height: 100vh; /* Garante que a seção ocupe pelo menos a altura da tela */
+    box-sizing: border-box; /* Inclui o padding no cálculo da altura total */
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff; /* Ajusta a cor do título para garantir legibilidade */
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #aaa; /* Ajusta a cor do texto para uma melhor visualização no fundo preto */
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px; /* Adiciona algum padding horizontal para melhor visualização em telas menores */
+}

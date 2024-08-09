@@ -1,0 +1,75 @@
+/* Estilos para a transição suave */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Outros estilos */
+.App {
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+/* Contêiner principal do site */
+.site-container {
+    width: 1200px; /* Largura fixa apropriada */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estilo geral do corpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Tamanho da fonte base */
+    line-height: 1.6; /* Altura da linha */
+    overflow-x: hidden; /* Remove a rolagem horizontal */
+    background-color: white;
+}
+
+/* Estilo para o header, main e footer */
+header, main, footer {
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Ajustes para telas de notebook */
+@media (min-width: 1024px) {
+    .site-container {
+        width: 1000px; /* Ajuste para notebooks maiores */
+    }
+}
+
+@media (max-width: 1366px) {
+    .site-container {
+        width: 90%; /* Ajusta para telas menores */
+    }
+}
+html {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+.home {
+  min-height: 100vh; /* Garante que a página ocupe a altura total da janela de visualização */
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+  background-color: white;
+}

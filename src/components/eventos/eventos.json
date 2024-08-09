@@ -1,0 +1,32 @@
+[
+    {
+        "data": "2024-08-15",
+        "nome": "Drift Battle São Paulo",
+        "local": "Autódromo de Interlagos",
+        "descricao": "Competição emocionante com os melhores drifters do Brasil. Venha ver as manobras impressionantes e sentir a adrenalina!"
+    },
+    {
+        "data": "2024-09-20",
+        "nome": "Festival de Drift Rio",
+        "local": "Autódromo do Rio",
+        "descricao": "Um festival de drifting com várias atrações, incluindo exibições de drift, workshops e muito mais. Não perca!"
+    },
+    {
+        "data": "2024-10-10",
+        "nome": "Drift Championship Curitiba",
+        "local": "Autódromo Internacional de Curitiba",
+        "descricao": "A grande final do campeonato de drifting, com os melhores pilotos competindo pelo título. Prepare-se para uma competição acirrada!"
+    },
+    {
+        "data": "2024-11-05",
+        "nome": "Drift Experience Belo Horizonte",
+        "local": "Autódromo Internacional de Belo Horizonte",
+        "descricao": "Uma oportunidade única para os fãs de drifting experimentarem o esporte com carros de drift e instruções de pilotos profissionais."
+    },
+    {
+        "data": "2024-12-12",
+        "nome": "End of Year Drift Show",
+        "local": "Autódromo de Goiânia",
+        "descricao": "Celebre o final do ano com um show de drifting incrível. Prepare-se para uma exibição espetacular e festividades ao final do evento."
+    }
+]
